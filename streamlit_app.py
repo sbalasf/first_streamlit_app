@@ -71,5 +71,5 @@ streamlit.stop()
 
 add_my_fruit = streamlit.text_input('What fruit would you like to add?')
 if streamlit.button('Add fruit to the list'):
-  back_from_function = insert_row_snwowflake(add_my_fruit):
+  back_from_function = insert_row_snwowflake(add_my_fruit)
   streamlit.text(back_from_function)
